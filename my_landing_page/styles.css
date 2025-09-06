@@ -1,0 +1,592 @@
+/* StockSeer.ai - Custom Styles */
+
+/* Light Theme Styles */
+.light-theme {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f1f5f9;
+    --bg-card: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --text-light: #94a3b8;
+    --border-color: #e2e8f0;
+    --border-light: #f1f5f9;
+    --accent-primary: #0d9488;
+    --accent-secondary: #2563eb;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 0, 0, 0.15);
+}
+
+.light-theme body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Background Colors */
+.light-theme .bg-dark-900 { 
+    background-color: var(--bg-primary) !important; 
+}
+
+.light-theme .bg-dark-800 { 
+    background-color: var(--bg-secondary) !important; 
+}
+
+.light-theme .bg-dark-700 { 
+    background-color: var(--bg-card) !important; 
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 6px -1px var(--shadow-color) !important;
+}
+
+/* Text Colors */
+.light-theme .text-gray-100 { 
+    color: var(--text-primary) !important; 
+}
+
+.light-theme .text-gray-300 { 
+    color: var(--text-secondary) !important; 
+}
+
+.light-theme .text-gray-400 { 
+    color: var(--text-muted) !important; 
+}
+
+.light-theme .text-white { 
+    color: var(--text-primary) !important; 
+}
+
+/* Border Colors */
+.light-theme .border-dark-700 { 
+    border-color: var(--border-color) !important; 
+}
+
+.light-theme .border-dark-600 { 
+    border-color: var(--border-light) !important; 
+}
+
+/* Navbar Light Theme */
+.light-theme nav {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-bottom-color: var(--border-color) !important;
+    box-shadow: 0 1px 3px 0 var(--shadow-color) !important;
+}
+
+/* Hero Section Light Theme */
+.light-theme #home {
+    background: linear-gradient(135deg, #f0fdfa 0%, #e0f2fe 50%, #f0f9ff 100%) !important;
+    color: var(--text-primary) !important;
+}
+
+.light-theme #home .text-gray-300 {
+    color: var(--text-secondary) !important;
+}
+
+.light-theme #home .text-gray-200 {
+    color: var(--text-muted) !important;
+}
+
+/* Feature Cards Light Theme */
+.light-theme .group.bg-dark-700 {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 6px -1px var(--shadow-color), 0 2px 4px -1px var(--shadow-color) !important;
+}
+
+.light-theme .group.bg-dark-700:hover {
+    box-shadow: 0 20px 25px -5px var(--shadow-hover), 0 10px 10px -5px var(--shadow-hover) !important;
+    border-color: var(--accent-primary) !important;
+}
+
+/* Pricing Cards Light Theme */
+.light-theme #pricing .group {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 6px -1px var(--shadow-color) !important;
+}
+
+.light-theme #pricing .group:hover {
+    box-shadow: 0 20px 25px -5px var(--shadow-hover) !important;
+    border-color: var(--accent-primary) !important;
+}
+
+/* Testimonial Cards Light Theme */
+.light-theme .bg-dark-700.rounded-2xl {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 6px -1px var(--shadow-color) !important;
+}
+
+/* Footer Light Theme */
+.light-theme footer {
+    background-color: var(--bg-secondary) !important;
+    border-top: 1px solid var(--border-color) !important;
+}
+
+/* Form Inputs Light Theme */
+.light-theme input {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.light-theme input:focus {
+    border-color: var(--accent-primary) !important;
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.1) !important;
+}
+
+/* Buttons Light Theme */
+.light-theme .bg-dark-700 {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+}
+
+.light-theme .bg-dark-700:hover {
+    background-color: var(--accent-primary) !important;
+    color: white !important;
+}
+
+/* Loading Screen Light Theme */
+.light-theme #loading-screen {
+    background-color: var(--bg-primary) !important;
+}
+
+/* Theme Toggle Button Light Theme */
+.light-theme #theme-toggle {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.light-theme #theme-toggle:hover {
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Mobile Menu Light Theme */
+.light-theme #mobile-menu {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 6px -1px var(--shadow-color) !important;
+}
+
+.light-theme #mobile-menu a:hover {
+    background-color: var(--bg-tertiary) !important;
+}
+
+/* Progress Bars Light Theme */
+.light-theme .bg-dark-600 {
+    background-color: var(--border-light) !important;
+}
+
+/* Social Icons Light Theme */
+.light-theme .bg-dark-800 {
+    background-color: var(--bg-tertiary) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+.light-theme .bg-dark-800:hover {
+    background-color: var(--accent-primary) !important;
+    border-color: var(--accent-primary) !important;
+}
+
+/* Additional Light Theme Enhancements */
+.light-theme .text-transparent {
+    color: var(--text-primary) !important;
+}
+
+.light-theme .bg-clip-text {
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+}
+
+/* Call to Action Section Light Theme */
+.light-theme #contact {
+    background: linear-gradient(135deg, #0d9488 0%, #2563eb 50%, #0d9488 100%) !important;
+    color: white !important;
+}
+
+.light-theme #contact .text-gray-200 {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Gradient Text Light Theme */
+.light-theme .text-transparent.bg-clip-text {
+    color: var(--accent-primary) !important;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+}
+
+/* Counter Numbers Light Theme */
+.light-theme .counter {
+    color: var(--accent-primary) !important;
+}
+
+/* Progress Bar Background Light Theme */
+.light-theme .bg-dark-600.rounded-full {
+    background-color: var(--border-light) !important;
+}
+
+/* Testimonial Stars Light Theme */
+.light-theme .text-primary-400,
+.light-theme .text-secondary-400 {
+    color: var(--accent-primary) !important;
+}
+
+/* Navigation Links Light Theme */
+.light-theme .text-gray-300.hover\:text-primary-400 {
+    color: var(--text-secondary) !important;
+}
+
+.light-theme .text-gray-300.hover\:text-primary-400:hover {
+    color: var(--accent-primary) !important;
+}
+
+/* Mobile Menu Links Light Theme */
+.light-theme #mobile-menu .text-gray-300 {
+    color: var(--text-secondary) !important;
+}
+
+.light-theme #mobile-menu .text-gray-300:hover {
+    color: var(--accent-primary) !important;
+}
+
+/* Footer Links Light Theme */
+.light-theme footer .text-gray-400 {
+    color: var(--text-muted) !important;
+}
+
+.light-theme footer .text-gray-400:hover {
+    color: var(--accent-primary) !important;
+}
+
+/* Logo Light Theme */
+.light-theme .text-2xl.font-bold.text-white {
+    color: var(--text-primary) !important;
+}
+
+/* Theme Toggle Icons Light Theme */
+.light-theme #sun-icon {
+    color: #f59e0b !important;
+}
+
+.light-theme #moon-icon {
+    color: #1e40af !important;
+}
+
+/* Ripple Effect */
+.animate-ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(0);
+    animation: ripple 0.6s linear;
+    pointer-events: none;
+}
+
+/* Enhanced Button Styles */
+.btn-enhanced {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.btn-enhanced::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn-enhanced:hover::before {
+    left: 100%;
+}
+
+/* Staggered Animation Delays */
+.stagger-1 { 
+    animation-delay: 0.1s; 
+}
+
+.stagger-2 { 
+    animation-delay: 0.2s; 
+}
+
+.stagger-3 { 
+    animation-delay: 0.3s; 
+}
+
+.stagger-4 { 
+    animation-delay: 0.4s; 
+}
+
+.stagger-5 { 
+    animation-delay: 0.5s; 
+}
+
+/* Loading Screen Enhancements */
+#loading-screen {
+    backdrop-filter: blur(10px);
+}
+
+/* Smooth Transitions */
+* {
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Enhanced Focus States */
+button:focus,
+a:focus,
+input:focus {
+    outline: 2px solid #14b8a6;
+    outline-offset: 2px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #14b8a6;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0d9488;
+}
+
+/* Additional Custom Animations */
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* Enhanced Card Hover Effects */
+.feature-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feature-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Pricing Card Enhancements */
+.pricing-card {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(20, 184, 166, 0.1), rgba(59, 130, 246, 0.1));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pricing-card:hover::before {
+    opacity: 1;
+}
+
+.pricing-card:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 32px 64px -12px rgba(20, 184, 166, 0.25);
+}
+
+/* Testimonial Card Styles */
+.testimonial-card {
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Enhancements */
+.btn-primary {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #14b8a6, #0d9488);
+    transition: all 0.3s ease;
+}
+
+.btn-primary::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.btn-primary:hover::after {
+    width: 300px;
+    height: 300px;
+}
+
+/* Navigation Enhancements */
+.nav-link {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #14b8a6, #3b82f6);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Hero Section Enhancements */
+.hero-particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    background: radial-gradient(circle, rgba(20, 184, 166, 0.8), transparent);
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Form Enhancements */
+.form-input {
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.form-input:focus {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.3);
+    transform: scale(1.02);
+}
+
+/* Loading Animation */
+.loading-dots {
+    display: inline-block;
+}
+
+.loading-dots::after {
+    content: '';
+    animation: loading-dots 1.5s infinite;
+}
+
+@keyframes loading-dots {
+    0%, 20% { content: ''; }
+    40% { content: '.'; }
+    60% { content: '..'; }
+    80%, 100% { content: '...'; }
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .feature-card:hover {
+        transform: translateY(-4px) scale(1.01);
+    }
+    
+    .pricing-card:hover {
+        transform: translateY(-6px) scale(1.02);
+    }
+    
+    .btn-primary:hover::after {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Accessibility Enhancements */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .light-theme {
+        --bg-primary: #ffffff;
+        --bg-secondary: #f8f8f8;
+        --bg-tertiary: #f0f0f0;
+        --bg-card: #ffffff;
+        --text-primary: #000000;
+        --text-secondary: #1a1a1a;
+        --text-muted: #333333;
+        --border-color: #000000;
+        --border-light: #666666;
+        --accent-primary: #0066cc;
+        --accent-secondary: #004499;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+        --shadow-hover: rgba(0, 0, 0, 0.4);
+    }
+    
+    .light-theme .text-gray-100,
+    .light-theme .text-white {
+        color: #000000 !important;
+    }
+    
+    .light-theme .text-gray-300 {
+        color: #1a1a1a !important;
+    }
+    
+    .light-theme .text-gray-400 {
+        color: #333333 !important;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .bg-dark-900,
+    .bg-dark-800,
+    .bg-dark-700 {
+        background: white !important;
+    }
+}
